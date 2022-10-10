@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.*;
 
 import androidx.annotation.*;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 public class EditFragment extends Fragment {
@@ -28,6 +29,8 @@ public class EditFragment extends Fragment {
 
     Schedule schedule = (Schedule)getArguments().getSerializable(PARAM_SCHEDULE);
 
+    Toolbar toolbar = view.findViewById(R.id.toolbar);
+    toolbar.setTitle(schedule.startHour + ":00 ～ " + (schedule.startHour + 1) + ":00");
     EditText title = view.findViewById(R.id.title);
     title.setText(schedule.title);
     EditText contents = view.findViewById(R.id.contents);

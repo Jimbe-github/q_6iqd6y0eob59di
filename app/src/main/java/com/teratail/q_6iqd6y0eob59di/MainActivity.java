@@ -36,13 +36,14 @@ public class MainActivity extends AppCompatActivity {
   void editSchedule(Schedule schedule) {
     getSupportFragmentManager().beginTransaction()
             .replace(R.id.fragment_container, EditFragment.newInstance(schedule))
+            .addToBackStack(null)
             .commit();
   }
   void regist(Schedule schedule) {
     viewmodel.regist(schedule);
-    transList();
+    getSupportFragmentManager().popBackStack();
   }
   void cancelEdit() {
-    transList();
+    getSupportFragmentManager().popBackStack();
   }
 }

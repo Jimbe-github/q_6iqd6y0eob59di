@@ -34,9 +34,9 @@ public class ListFragment extends Fragment {
       ((MainActivity)requireActivity()).editSchedule((Schedule)listView.getItemAtPosition(position))
     );
 
-    TextView header = view.findViewById(R.id.header);
+    TextView label = view.findViewById(R.id.headerLabel);
     viewmodel.getDayOfWeek().observe(getViewLifecycleOwner(), dayOfWeek ->
-        header.setText(dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()))
+        label.setText(dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()))
     );
 
     Button prevButton = view.findViewById(R.id.prevButton);

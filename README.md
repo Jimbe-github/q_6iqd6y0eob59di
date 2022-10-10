@@ -2,4 +2,4 @@
 
 https://teratail.com/questions/6iqd6y0eob59di
 
-![screenshot - list](https://user-images.githubusercontent.com/62501697/194819011-76790ded-2606-4105-a477-80b23cae9b42.png)　![screenshot - contents](https://user-images.githubusercontent.com/62501697/194819283-83028260-7c6a-4e98-9e52-1eae7c44ed82.png)
+![screenshot -l ist](https://user-images.githubusercontent.com/62501697/194882063-0118f287-a0d7-4476-880f-9ab9747e6b16.png)　![screenshot - contents](https://user-images.githubusercontent.com/62501697/194882099-53f7c0ee-adf4-4d05-882d-4e15a15fbee8.png)
